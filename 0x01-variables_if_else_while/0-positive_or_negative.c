@@ -5,9 +5,11 @@
 
 
 /**
- * Main - will assign a random number to the variable n each time it is
+ * main - will assign a random number to the variable n each time it is
  * executed and print out on a based condition
+ * Return: Always (0)
  */
+
 
 int main(void)
 {
