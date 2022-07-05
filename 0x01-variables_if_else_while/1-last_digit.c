@@ -1,17 +1,12 @@
-#include <stdlb.h>
-#include <time.h>
 #include <stdio.h>
 
-
-
-
-/*
- *	main - This program, will assign a random number to a variable
- *		n each time it is executed.
- *	Return Always (0).
+/**
+ * main- Entry point
+ *
+ * Return: Always 0 (Success)
  */
 
-/*	program will assign a random number to a variable */
+
 int main(void)
 {
 	int n;
