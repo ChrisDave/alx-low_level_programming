@@ -1,15 +1,13 @@
 #include <stdio.h>
 
 /**
- * main - Print all single digits numbers of base 10
- * starting from 0.  But using putchar for output
+ * main- Entry point
  *
- * Return : always 0
- **/
+ * Return: Always 0 (Success)
+ */
 
-/* main.c */
 int main(void)
-{	/* main returns 0 */
+{
 	int num;
 
 	for (num = 0; num < 10; num++)
