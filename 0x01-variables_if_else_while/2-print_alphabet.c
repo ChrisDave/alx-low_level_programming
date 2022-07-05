@@ -1,17 +1,9 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
 
 /**
- * File : 2-print_alphabet.c
- * by David Okai
+ * main- Entry point 
  *
- */
-
-/**
- * main: Entry point 
- *
- *Return: Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 
 int main(void)
