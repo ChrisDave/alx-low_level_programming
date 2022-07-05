@@ -9,7 +9,7 @@
 int main(void)
 {
 	int ch;
-	int j;
+	int n;
 
 	for (ch = 48; ch <= 57; ch++)
 {
