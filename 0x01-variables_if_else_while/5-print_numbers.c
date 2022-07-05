@@ -3,8 +3,9 @@
 /**
  * main - Print all single digits numbers of base 10
  * starting from 0.
+ * @int - int will hold value
  *
- * Return : always 0
+ * Return : 0
  **/
 
 /* main.c */
