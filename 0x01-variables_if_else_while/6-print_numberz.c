@@ -10,10 +10,10 @@
 /* main.c */
 int main(void)
 {	/* main returns 0 */
-	int ch;
+	int num;
 
-	for (ch = 48; ch < 57; ch++)
-		putchar(ch);
+	for (num = 0; num < 10; num++)
+		putchar((num % 10) + '0');
 
 	printf(10);
 	return (0);
