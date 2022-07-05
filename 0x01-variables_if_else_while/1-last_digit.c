@@ -1,3 +1,5 @@
+#include <stdlb.h>
+#include <time.h>
 #include <stdio.h>
 
 /**
