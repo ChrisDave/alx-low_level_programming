@@ -12,7 +12,7 @@ void more_numbers(void)
 	{
 		for (y = 0; y < 15; y++)
 		{
-			_putchar(y + '0');
+			_putchar(y + 48);
 		}
 		_putchar('\n');
 	}
