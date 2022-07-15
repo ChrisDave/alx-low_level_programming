@@ -1,16 +1,20 @@
 #include "main.h"
 
 /**
- * print_line - Checks for a digit fr
- * @c: The character to be checked.
- *
- * Return: 1 if a number is a digit, 0 otherwise.
+ * print_line - Function that draws a straight line
+ * @n: integer parameters
  */
 
-int _isdigit(int c)
+void print_line(int n)
 {
-	if (c >= '0' && c <= '9')
-		return (1);
+	int x;
+
+	if (n <= 0)
+		_putchar('\n');
 	else
-		return (0);
+	{
+		for (x = 0; x < n; x++)
+			_putchar(95);
+		_putchar('\n');
+	}
 }
