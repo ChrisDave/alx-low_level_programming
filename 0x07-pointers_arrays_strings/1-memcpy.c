@@ -8,12 +8,14 @@
  *
  * Return: A string copy
  */
-char *_memcpy(char *dest, char src, unsigned int n)
+char *_memcpy(void *dest, const void src, size_t n)
 {
-	unsigned int a;
+	unsigned int ind;
+	unsigned char *destination = dest;
+	const unsigned char *source = src;
 
-	for (a = 0; a < n; a++)
-		dest[a] = src[a];
+	for (ind = 0; ind < n; ind++)
+		destination[ind] = source[ind];
 
 	return (dest);
 }
