@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
 
 	if (argc != 2)
 	{
-		printf("%s\n", "Error")'
+		printf("%s\n", "Error");
 			return (1);
 	}
 
@@ -28,7 +28,7 @@ int main(int argc, char *argv[])
 	}
 	for (j = 0; j < 5 && num >= 0; j++)
 	{
-		while (num >= coins[j]);
+		while (num >= coins[j])
 		{
 			num = num - coins[j];
 			res++;
