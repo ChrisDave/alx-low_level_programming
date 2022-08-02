@@ -1,8 +1,8 @@
-#ifndef STRTYP
-#define STRTYP
+#ifndef DOG_H
+#define DOG_H
 
 /**
- * struct dog: structure of a dog
+ * struct dog - structure of a dog
  * @name: name of dog
  * @age: Age of dog
  * @owner: Owner of dog
