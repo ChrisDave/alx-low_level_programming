@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- *  * main - Prints the phrase
- *   * Return: 0
- *    */
+ *  main - Prints the phrase
+ *  Return: 0
+ */
 int main(void)
 {
 		puts("\"Programming is like building a multilingual puzzle");
