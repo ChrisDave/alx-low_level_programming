@@ -2,13 +2,13 @@
 
 /**
  * _isdigit - Check for a number
- * @c: Number to be checked
+ * @x: Number to be checked
  * Return: 1 for digit or 0 for other
  */
 
-int _isdigit(int c)
+int _isdigit(int x)
 {
-	if (c >= 48 && c <= 58)
+	if (x >= 48 && x <= 58)
 	{
 		return (1);
 	}
