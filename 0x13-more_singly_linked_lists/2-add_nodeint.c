@@ -4,9 +4,9 @@
  * add_nodeint - function to add anew node at begining
  *
  * @head: pointer to pointer of listint_t
- * @h: comstant parameter
+ * @n: n element
  *
- * Return: returns address to new element
+ * Return: NULL if it fails otherwise head
  */
 
 listint_t *add_nodeint(listint_t **head, const int n)
@@ -23,5 +23,5 @@ listint_t *add_nodeint(listint_t **head, const int n)
 	new->next = *head;
 	*head = new;
 
-	return (new);
+	return (*head);
 }
